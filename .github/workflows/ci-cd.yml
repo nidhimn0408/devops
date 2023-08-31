@@ -1,0 +1,20 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Build and Push Docker Image
+        run: |
+          docker build -t NidhiMN/devops:latest .
+          echo "${{ secrets.DOCKER_PASSWORD }}" | docker login docker.io -u NidhiMN --password-stdin
+          docker push NidhiMN/devops:latest
