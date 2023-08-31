@@ -15,6 +15,6 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t NidhiMN/devops:latest .
-          echo "${{ secrets.DOCKER_PASSWORD }}" | docker login docker.io -u NidhiMN --password-stdin
-          docker push NidhiMN/devops:latest
+          docker build -t nidhimn/devops:latest .
+          echo "${{ secrets.DOCKER_PASSWORD }}" | docker login docker.io -u nidhimn --password-stdin
+          docker push nidhimn/devops:latest
