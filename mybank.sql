@@ -203,7 +203,8 @@ INSERT INTO `useraccounts` (`id`, `email`, `password`, `name`, `balance`, `cnic`
 (1, 'nidhi@gmail.com', 'nidhi', 'nidhi', '17800', '3210375555426', '03356910260', 'new york', 'Bengaluru', 'Programmer', '1005469', '2', 'Current', '2017-12-14 05:50:06'),
 (2, 'sannidhi@gmail.com', 'sannidhi', 'sannidhi', '8003', '3210375555343', '03356910260', 'paris', 'Bengaluru', 'Programmer', '10054777', '1', 'Saving', '2017-12-14 04:50:06'),
 (6, 'sanketh@gmail.com', 'sanketh', 'sanketh', '234235', '3240338834902', '03356910260', 'delhi', 'Chennai', 'Govt. job', '1513410739', '1', 'saving', '2017-12-16 07:52:40'),
-(7, 'saathvik.com', 'saathvik', 'saathvik', '12121', '3240338834902', '03356910260', 'Tokyo', 'Ranchi', 'Govt. job', '1513410837', '1', 'current', '2017-12-16 07:54:18');
+(7, 'saathvik.com', 'saathvik', 'saathvik', '12121', '3240338834902', '03356910260', 'Tokyo', 'Ranchi', 'Govt. job', '1513410837', '1', 'current', '2017-12-16 07:54:18'),
+(8, 'vikrant@gmail.com', 'vikrant', 'VIKRANT B M', '1345521', '32403435468845602', '774531260', 'china', 'delhi', 'bms', '0003410837', '1', 'current', '2017-12-16 07:54:18');
 
 --
 -- Indexes for dumped tables
