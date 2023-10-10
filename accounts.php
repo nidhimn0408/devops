@@ -7,6 +7,10 @@ if(!isset($_SESSION['userId'])){ header('location:login.php');}
 <html>
 <head>
   <title>Banking</title>
+
+
+
+  
   <?php require 'assets/autoloader.php'; ?>
   <?php require 'assets/db.php'; ?>
   <?php require 'assets/function.php'; ?>
